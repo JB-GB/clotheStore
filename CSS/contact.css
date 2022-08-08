@@ -1,0 +1,47 @@
+#tContacta{
+    font-size: 200%;
+    left: 5%;
+}
+#texto{
+    padding-right: -10px;
+    width: 25%;
+    height: 25%;
+    border-style: dotted;
+    text-align: left;
+
+}
+
+#fCont{
+    border-style: solid;
+    position: relative;
+    margin-left: 35%;
+}
+.textline{
+    background-color: lemonchiffon;
+    padding: 10px 10px;
+    margin: 4px 0px 4px 0px;
+    width: 100%;
+    border: none;
+}
+.textline:hover{
+    background-color: beige;
+}
+.textline:focus{
+    border: 1px solid gray;
+}
+
+.textbox{
+    border:none;
+    width: 100%;
+    background-color: lemonchiffon;
+    resize: none;
+}
+.textbox:hover{
+    background-color: beige;
+}
+
+.send{
+    
+    
+    width: 10%;
+}

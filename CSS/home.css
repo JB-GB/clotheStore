@@ -1,0 +1,69 @@
+/* Diseños generales*/
+.indexBar{
+    background-color: green;
+    color:slategrey;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    top: 0%;
+    left: 0%;
+}
+
+/* Logo de la barra de navegacion*/
+.indexBar img{
+    position: relative;
+    right: 65%;
+    border-style: dashed;
+    border-color: black;
+}
+
+/* modificando indexBar barra general */
+.indexBar ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 20%;
+    left: 50%;
+}
+.indexBar li{
+    float: left;
+}
+.indexBar li a{
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+.indexBar li a:hover{
+    display: block;
+    color:burlywood;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    
+}
+/* Espaciado para el contenido*/
+body{
+    margin: 7% 10% 0% 10%;
+    background-color:lemonchiffon;
+    
+}
+
+/* Pie de pagina */
+footer{
+    background-color: aquamarine;
+    text-align: center;
+    width: 100%;
+    font-size: 65%;
+    width: 100%;
+    height: 40px;
+    padding-bottom: 0%;
+}
+footer p{
+    position: relative;
+    top: 35%;
+}
+
+/* a partir de aqui, son los diseños de cada pagina */
